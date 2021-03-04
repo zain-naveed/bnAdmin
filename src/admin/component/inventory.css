@@ -1,0 +1,27 @@
+.box{height:230px;
+    width:200px;
+    border:1px dashed #c5c5c5;
+    display:flex;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+.box:hover{
+    background-color: #a7a2a2;
+}
+.uploadbox{
+    height:230px;
+    width:200px;
+    border:1px solid #c5c5c5;
+    background-color: #a7a2a2;
+    display:flex;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.uploadbox:hover{
+    background-color: #a7a2a2;
+}
+                             

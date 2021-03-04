@@ -1,0 +1,8 @@
+
+input.form-focus.form-control:active,
+input.form-focus.form-control:focus{
+    border: 1px solid white !important;
+}
+/* .form-focus:focus{
+    border: 1px solid white !important;
+} */

@@ -1,0 +1,14 @@
+
+.input[type=text]{
+    width: 500px !important;
+    background-color: #2A3146;
+    border: 1px solid #3D4458;
+    border-radius: 45px;
+    padding:5px 17px;
+    color: white !important;
+
+}
+.input[type="text"]:focus{
+    
+    outline: none;
+}

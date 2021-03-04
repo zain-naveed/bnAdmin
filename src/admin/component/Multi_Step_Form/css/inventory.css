@@ -1,0 +1,28 @@
+.upload{
+    height: 200px;
+    width: 400px;
+    background-color: #3B4863;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+/* .icon{
+    color: red !important;
+    background-color: red;
+} */
+svg:not(:root) {
+    overflow: hidden;
+}
+.upload-button{
+    color: #7987A1;
+}
+.icon {
+    
+    display: inline-block;
+    fill: currentColor;
+    height: 100em;
+    width: 50em;
+    vertical-align: middle;
+    position: relative;
+}

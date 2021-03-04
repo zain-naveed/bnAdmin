@@ -1,0 +1,18 @@
+.div{
+  height: inherit;
+  width: inherit;
+  /* border: 1px solid */
+  border-radius: 5px;
+  padding: 2px 5px;
+  font-size: 20px;
+}
+.list1{
+  border: 1px solid #7987A1 !important;
+  /* background-color: rebeccapurple;  */
+}
+.acitve-stepper{
+  border: 2px solid #17bbe1 !important;
+}
+.completed{
+  border: 1px solid rgb(122, 207, 122) !important;
+}

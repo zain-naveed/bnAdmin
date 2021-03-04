@@ -1,0 +1,105 @@
+ {/* <div className="container ">
+                <div className="row text-center  mt-4" >
+
+                    <div className="col-12 mx-1 p-4">
+
+                        <input type="file" id="file" multiple onChange={handleImageChange} style={{ display: "none" }} />
+                        <div className="label-holder">
+                            {
+                                selectedFiles.length < 4 ? <div className="upload"> <label htmlFor="file">
+                                    <div className="upload-button">
+                                    <svg data-v-445d13bf="" className="icon" style={{ height: "100px", cursor: "pointer" }} viewBox="0 0 24.02 21.01">
+                                        <g id="Layer_2" data-name="Layer 2">
+                                            <path d="M9.28 5.62L7.87 4.2l4.2-4.2 4.22 4.22-1.42 1.41-1.79-1.79V15h-2V3.82zM24 18v-7h-2v7a1 1 0 01-1 1H3a1 1 0 01-1-1v-7H0v7a3 3 0 003 3h18a3 3 0 003-3z" id="Layer_1-2" data-name="Layer 1">
+                                            </path>
+                                        </g>
+                                    </svg>
+                                    </div>
+                                </label>
+                                </div> : <label className="label">
+                                        {
+                                            aler ? <>
+                                                {
+                                                    alert("You only 4 design"),
+                                                    checkAlert(false)
+                                                }
+                                            </> : ""
+                                        }
+                                        <i className="fas fa-upload" unselectable style={{ fontSize: "4rem", cursor: "pointer" }} onClick={() => checkAlert(true)}></i>
+                                    </label>
+                            }
+
+                        </div>
+
+                    </div>
+                </div>
+                <div className="row mt-4">
+                    <div className="col-md-8">
+
+
+
+                        <div className="row">
+                            <div className="col-md-2">
+                                {
+                                    renderPhotos(selectedFiles)
+                                }
+                            </div>
+                            <div className="col">
+                                {
+                                    selectedFiles.length ? <img src={imag ? imag : selectedFiles[0]} height="430rem" width="100%" /> : ""
+                                }
+
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4 text-left">
+                        <form onSubmit={handleSubmit}>
+                            <div className="form-group">
+                                <label htmlFor="Product">Product Name</label>
+                                <input type="text" placeholder="Product Name" onChange={(e) => setinp(e.target.value)} className="form-control" />
+                                {
+
+                                    errorfor === "inp" && errorMsg ?
+                                        <div className="alert alert-danger">
+                                            {
+                                                errorMsg
+                                            }
+                                        </div> : ""
+                                }
+
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor="size">
+                                    Choose a Size
+                            </label>
+                                <div className="d-flex" >
+                                    {
+                                        console.log(color)
+                                    }
+                                    {
+                                        size.map((data, index) => {
+                                            return <div key={index} style={{
+                                                height: "50px", width: "50px", border: "1px solid white", textAlign: "center", fontSize: "20px",
+                                                margin: "0 2px", padding: "5px",
+                                                cursor: "pointer",
+
+                                                backgroundColor: `${data === color ? "green" : ""}`
+                                            }}
+
+                                                onClick={(e) => setColor(data)}>
+                                                {data}
+                                            </div>
+
+                                        })
+                                    }
+                                </div>
+                            </div>
+                            <button type="submit" className="btn btn-outline-dark mt-4">Submit</button>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+       
+        */}
